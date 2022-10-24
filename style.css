@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+    
     /* CSS Reset */
 
     html, body, div, span, applet, object, iframe,
@@ -44,7 +46,19 @@ table {
 	border-spacing: 0;
 }
 
-/* Actual code */
+/* Colors */
+
+    :root {
+        --bright-orange: hsl(31, 77%, 52%); 
+        --dark-cyan: hsl(184, 100%, 22%);
+        --very-dark-cyan: hsl(179, 100%, 13%);
+
+        --transparent-white: hsla(0, 0%, 100%, 0.75);
+        --very-light-gray: hsl(0, 0%, 95%);
+    }
+
+/* Actual code */ /* font-family: 'Big Shoulders Display', cursive;
+                    font-family: 'Lexend Deca', sans-serif; */
     
     .attribution { 
         font-size: 11px; 
